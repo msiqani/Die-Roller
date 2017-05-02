@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     // Outlets
     @IBOutlet weak var dieImage: UIImageView!
     @IBOutlet weak var dieResult: UILabel!
+    
+    // IBAction
     @IBAction func rollDie(_ sender: Any) {
         let randomNumber = arc4random_uniform(6) + 1
         self.dieResult.text = String(randomNumber)
