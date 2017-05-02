@@ -15,10 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-<<<<<<< HEAD
-    // Outlet Connections
-=======
->>>>>>> parent of 0c07ae6... Added comment
+    // comment
     @IBOutlet weak var dieImage: UIImageView!
     @IBOutlet weak var dieResult: UILabel!
     
