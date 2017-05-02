@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    // Outlets
     @IBOutlet weak var dieImage: UIImageView!
     @IBOutlet weak var dieResult: UILabel!
     @IBAction func rollDie(_ sender: Any) {
