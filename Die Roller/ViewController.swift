@@ -15,7 +15,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    // comment
     @IBOutlet weak var dieImage: UIImageView!
     @IBOutlet weak var dieResult: UILabel!
     
